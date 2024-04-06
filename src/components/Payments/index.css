@@ -1,0 +1,123 @@
+.payments-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+  padding: 30px;
+}
+@media screen and (min-width: 768px) {
+  .payments-container {
+    min-height: 90vh;
+  }
+}
+.payments-card {
+  background-color: #ffffff;
+  width: 400px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 5px;
+}
+.payments-card-header {
+  background-color: #c587b0;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.paying-heading {
+  margin: 0;
+  color: #171f46;
+  font-family: 'Roboto';
+}
+.payments-website-logo {
+  height: 30px;
+  width: 100px;
+  margin-left: 10px;
+}
+.payments-card-body {
+  padding: 20px;
+}
+@media screen and (max-width: 768px) {
+  .payments-card {
+    width: 100%;
+  }
+  .payments-card-body {
+    padding: 20px;
+  }
+  .payments-card-header {
+    justify-content: center;
+  }
+}
+.amount-container {
+  background-color: transparent;
+  border: 1px solid #bfbfbf;
+  border-radius: 3px;
+  padding: 10px;
+}
+.amount {
+  color: #74064f;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 0;
+}
+.total {
+  color: #74064f;
+  margin: 0;
+  font-size: 30px;
+}
+.select-payment-option-heading {
+  color: #797477;
+  font-size: 14px;
+}
+.option-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.payment-image-container {
+  display: flex;
+  align-items: center;
+}
+.payment-option-icon {
+  color: blueviolet;
+  padding: 3px;
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+.payment-option-label {
+  color: #000000;
+  font-weight: 500;
+}
+.radio-button {
+  height: 20px;
+  width: 20px;
+}
+.line {
+  border-top: 1px solid #bfbfbf;
+}
+.pay-button-container {
+  margin-top: 30px;
+  text-align: right;
+}
+.pay-button {
+  background-color: #0b69ff;
+  height: 35px;
+  width: 100px;
+  color: #ffffff;
+  border: 0;
+  border-radius: 3px;
+}
+.light-logout-model-container {
+  text-align: center;
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 300px;
+}
+.payment-successful-message {
+  font-weight: 500;
+  color: #74064f;
+}
